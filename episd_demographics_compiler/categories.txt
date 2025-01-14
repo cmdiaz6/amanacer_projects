@@ -1,0 +1,31 @@
+Total Students
+African American
+Hispanic
+White
+American Indian
+Asian
+Pacific Islander
+Two or More Races
+Female
+Male
+Economically Disadvantaged
+Non-Educationally Disadvantaged
+Section 504 Students
+EB Students/EL
+Students w/ Disciplinary Placement
+Students w/ Dyslexia
+Foster Care
+Homeless
+Immigrant
+Migrant
+Title I
+Military Connected
+At-Risk
+Bilingual/ESL Education
+Gifted and Talented Education
+Special Education
+Students with Intellectual Disabilities
+Students with Physical Disabilities
+Students with Autism
+Students with Behavioral Disabilities
+Students with Non-Categorical Early Childhood
