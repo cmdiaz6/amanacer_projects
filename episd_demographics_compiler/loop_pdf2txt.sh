@@ -9,7 +9,7 @@ IFS=$'\n'
 mkdir -p output_pdf_text/
 cd inputs
 pwd
-ls > pdf_list.txt
+ls *.pdf > pdf_list.txt
 echo "Converting $dir" 
 
 for file in `find . -type f -name "*.pdf"`; do

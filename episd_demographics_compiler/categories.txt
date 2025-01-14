@@ -1,3 +1,4 @@
+
 Total Students
 African American
 Hispanic
@@ -12,7 +13,7 @@ Economically Disadvantaged
 Non-Educationally Disadvantaged
 Section 504 Students
 EB Students/EL
-Students w/ Disciplinary Placement
+Students w/ Disciplinary Placements (2022-23)
 Students w/ Dyslexia
 Foster Care
 Homeless

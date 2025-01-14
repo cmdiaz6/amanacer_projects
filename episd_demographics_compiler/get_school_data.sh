@@ -25,8 +25,8 @@ for file in $school_files; do
 
     # probably a better way to do this in python that doesn't grep the same data repeatedly
     for field in $categories; do
-        # info starts on page 20. Grep 65 lines after 'page 19' 
-        grep 'Page 19' -A 65 $file | grep -o "$field"' \s*[0-9][0-9]*' | rev | cut -d' ' -f1 | rev >> $school
+        # info starts on page 20. Grep 100 lines after 'page 19'. Only get 1st match (head -n 1)
+        grep 'Page 19' -A 100 $file | grep -o "$field"' \s*[0-9*][0-9*]*' | head -n 1 | rev | cut -d' ' -f1 | rev >> $school
     done
 
     echo "---" >> $school # blank line in spreadsheet
@@ -34,7 +34,7 @@ for file in $school_files; do
     # Mobility statistics
     for field in $categories_mobility; do
         # info starts on page 21. Grep 35 lines after 'page 20' 
-        grep 'Page 20' -A 35 $file | grep -o "$field"' \s*[0-9][0-9]*' | rev | cut -d' ' -f1 | rev >> $school
+        grep 'Page 20' -A 100 $file | grep -o "$field"' \s*[0-9*][0-9*]*' | head -n 1 | rev | cut -d' ' -f1 | rev >> $school
     done
 
     mv $school ../output_school_data
